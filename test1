@@ -17,7 +17,7 @@ public class task22 {
 				System.out.println(cars.get(i));    
 		    }
 		    cars.add(1, "Ford");
-		    //System.out.println("**************************");
+		    //in this line System.out.println("**************************");
 		    for(int i = 0 ; i < cars.size(); i++) {
 				System.out.println(cars.get(i));    
 		    }
