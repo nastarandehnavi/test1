@@ -1,0 +1,39 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class task22 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		 ArrayList<String> cars = new ArrayList<String>();
+		    cars.add("Kia");
+		    cars.add("Tesla");
+		    cars.add("BMW");
+		    cars.add("Renault");
+		    
+		    for(int i = 0 ; i < cars.size(); i++)
+		    {
+				System.out.println(cars.get(i));    
+		    }
+		    cars.add(1, "Ford");
+		    //System.out.println("**************************");
+		    for(int i = 0 ; i < cars.size(); i++) {
+				System.out.println(cars.get(i));    
+		    }
+		    // removing a car
+		    cars.remove(2);
+		    for(int i = 0 ; i < cars.size(); i++) {
+				System.out.println(cars.get(i));    
+		    }
+		    //sorting cars
+		    Collections.sort(cars);	
+			for(int i = 0 ; i < cars.size(); i++) {
+				System.out.println(cars.get(i));
+			} 
+		    
+		    
+		
+	}
+
+}
